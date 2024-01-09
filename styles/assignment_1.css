@@ -8,11 +8,13 @@ body {
 .banner-title {
     color: #FFF;
     text-align: center;
-    font-size: 30px;
-    font-weight: 400;
+    font-size: 35px;
     padding-top: 200px;
     padding-bottom: 0;
 
+}
+.banner-title-description{
+    margin: 0;
 }
 
 
