@@ -274,17 +274,46 @@ header {
     width: 1068px;
 }
 
-.img-main-div{
+.img-main-div {
     /* display: flex; */
     height: 650px;
 
-    background-image: url(../resources/Group\ 75.png),url(../resources/Rectangle\ 2.png),url(../resources/Rectangle\ 1.png);
+    background-image: url(../resources/Group\ 75.png), url(../resources/Rectangle\ 2.png), url(../resources/Rectangle\ 1.png);
     background-repeat: no-repeat;
-    background-position: bottom left, center bottom,top right;
+    background-position: bottom left, center bottom, top right;
 }
 
-.img-div-2{
+.img-div-2 {
     padding: 60px;
     padding-left: 500px;
 }
 
+/* section 6 */
+.section-6{
+    text-align: left;
+    width: 1300px;
+    margin: 0px auto;
+}
+
+.section-6-title {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.section-6-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    width: 896px;
+}
+.images{
+    display: flex;
+    justify-content:space-between;
+}
+.product{
+    padding: 10px;
+}
