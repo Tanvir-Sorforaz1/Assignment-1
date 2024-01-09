@@ -289,7 +289,7 @@ header {
 }
 
 /* section 6 */
-.section-6{
+.section-6 {
     text-align: left;
     width: 1300px;
     margin: 0px auto;
@@ -310,10 +310,123 @@ header {
     font-weight: 400;
     width: 896px;
 }
-.images{
+
+.images {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 }
-.product{
+
+.product {
     padding: 10px;
 }
+
+/* section 7 */
+
+.section-7 {
+    text-align: center;
+    width: 1300px;
+    height: 500px;
+    margin: 0px auto;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin-top: 120px;
+
+}
+
+.email-img {
+    margin-bottom: 22px;
+    padding-top: 24px;
+}
+
+#text {
+    margin: 20px auto;
+}
+
+.Subscribe {
+    display: flex;
+    width: 648px;
+    height: 72px;
+    margin: 40px auto;
+
+
+}
+
+.email-box {
+    width: 648px;
+    height: 72px;
+    font-size: 18px;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    padding-right: 0;
+    padding-left: 25px;
+    font-weight: 10;
+    font-family: 'Inter', sans-serif;
+    border: none;
+
+}
+
+.Subscribe-button {
+    width: 210px;
+    height: 72px;
+    padding: 0;
+    margin: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+/* footer styles */
+.footer{
+    text-align: center;
+    height: 800px;
+    background: #070211;
+    color: #FFF;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer-1{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-2-main{
+    margin: 40px auto;
+    padding-left: 40%;
+
+}
+.footer-2{
+    width: 100px;
+    padding: 0 auto;
+    display: flex;
+    gap: 50px;
+    
+}
+.footer-3{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-left{
+    text-align: left;
+    width: 360px;
+    padding: 140px;
+    
+}
+.footer-right{
+    padding: 140px 291px;
+}
+
+#Unsubscribe{
+    padding-right: 7%;
+}
+hr{
+    width: 1320px;
+    background: rgba(255, 255, 255, 0.15);
+}
+
