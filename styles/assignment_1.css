@@ -137,7 +137,7 @@ header {
 
 .div-time {
     color: #070211;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
@@ -156,9 +156,7 @@ header {
     text-align: center;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     text-transform: uppercase;
 
     border-radius: 8px;
@@ -178,8 +176,8 @@ header {
     justify-content: space-between;
     background: #FFF;
     width: 1300px;
-    height: 7335px;
     margin: 120px auto;
+    margin-bottom: 20px;
 }
 
 .div-left {
@@ -202,7 +200,7 @@ header {
     line-height: 32px;
 }
 
-.div-middle {}
+
 
 .middle-img {
     width: 300px;
@@ -215,7 +213,7 @@ header {
 
 
 
-.div-right {}
+/* .div-right {} */
 
 .right-title {
     color: #F00;
@@ -237,4 +235,8 @@ header {
     margin-top: 43px;
     width: 140px;
     height: 140px;
+}
+/* section5 */
+.section-5{
+    margin-top: 0;
 }
