@@ -236,7 +236,55 @@ header {
     width: 140px;
     height: 140px;
 }
+
 /* section5 */
-.section-5{
-    margin-top: 0;
+.section-5 {
+    text-align: center;
+    width: 1300px;
+    height: 900px;
+    margin: 120px auto;
 }
+
+.title-1 {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+
+.title-2 {
+    color: #070211;
+    font-size: 72px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.Holidays {
+    color: #F00;
+}
+
+.title-3 {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    margin: 28px auto 64px;
+    width: 1068px;
+}
+
+.img-main-div{
+    /* display: flex; */
+    height: 650px;
+
+    background-image: url(../resources/Group\ 75.png),url(../resources/Rectangle\ 2.png),url(../resources/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-position: bottom left, center bottom,top right;
+}
+
+.img-div-2{
+    padding: 60px;
+    padding-left: 500px;
+}
+
